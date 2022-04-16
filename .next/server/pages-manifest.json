@@ -1,0 +1,10 @@
+{
+  "/": "pages/index.js",
+  "/old/imageChange": "pages/old/imageChange.js",
+  "/old/imageChangeOnScroll": "pages/old/imageChangeOnScroll.js",
+  "/old": "pages/old.js",
+  "/old/useEffectSyntx": "pages/old/useEffectSyntx.js",
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js"
+}
