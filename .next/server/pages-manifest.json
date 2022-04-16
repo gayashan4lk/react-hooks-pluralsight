@@ -1,9 +1,0 @@
-{
-  "/imageChange": "pages/imageChange.js",
-  "/imageChangeOnScroll": "pages/imageChangeOnScroll.js",
-  "/": "pages/index.js",
-  "/useEffectSyntx": "pages/useEffectSyntx.js",
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js"
-}

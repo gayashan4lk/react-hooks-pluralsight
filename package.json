@@ -1,5 +1,5 @@
 {
-  "name": "one",
+  "name": "react-hooks-pluralsight",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "start": "next start"
   },
   "keywords": [],
-  "author": "",
+  "author": "Gayashan Wagachchi",
   "license": "ISC",
   "dependencies": {
     "next": "^12.1.4",

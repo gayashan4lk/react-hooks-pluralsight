@@ -1,29 +1,29 @@
-import React, {useEffect, useRef} from "react";
+// import React, {useEffect, useRef} from "react";
 
-const ImageToggleOnScroll = ({bwImage, colorImage}) => {
-    const imageRef = useRef(null);
+// const ImageToggleOnScroll = ({bwImage, colorImage}) => {
+//     const imageRef = useRef(null);
 
-    const isInView = () => {
-        const rect = imageRef.current.getBoundingClientRect();
-        return rect.top >= 0 && rect.bottom <= window.innerHeight;
-    };
+//     const isInView = () => {
+//         const rect = imageRef.current.getBoundingClientRect();
+//         return rect.top >= 0 && rect.bottom <= window.innerHeight;
+//     };
 
-    const [inView, setInView] = useState(false);
+//     const [inView, setInView] = useState(false);
 
-    useEffect(() => {
-        window.addEventListener("scroll", scrollHandler);
-        return () => {
-            window.removeEventListener("scroll", scrollHandler);
-        };
-    },[]);
+//     useEffect(() => {
+//         window.addEventListener("scroll", scrollHandler);
+//         return () => {
+//             window.removeEventListener("scroll", scrollHandler);
+//         };
+//     },[]);
 
-    const scrollHandler = () => {
-        setInView(isInView());
-    };
+//     const scrollHandler = () => {
+//         setInView(isInView());
+//     };
 
-    return (
-        <img src={inView ? colorImage : bwImage} alt="" ref={imageRef} />
-    );
-};
+//     return (
+//         <img src={inView ? colorImage : bwImage} alt="" ref={imageRef} />
+//     );
+// };
  
-export default ImageToggleOnScroll;
+// export default ImageToggleOnScroll;
